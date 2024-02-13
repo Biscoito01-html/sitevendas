@@ -1,0 +1,32 @@
+.card { 
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.card a { 
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ccc;
+    width: 95%;
+    justify-content: space-around;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    align-items: center;
+}
+.card a:hover {
+    background-color: rgba(75, 75, 224, 0.966);
+}
+.descricao { 
+    text-wrap: break-word;
+    width: 50%;
+}
+.valor { 
+    color: rgb(25, 240, 25);
+    font-weight: 800;
+    font-size: 25px;
+}
